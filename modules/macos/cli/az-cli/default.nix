@@ -1,6 +1,6 @@
-{ lib, ... }:
+{ pkgs, ... }:
 {
-  options = {
-    azure-cli.enable = lib.mkEnableOption;
-  };
+  home.packages = with pkgs; [
+    azure-cli
+  ];
 }
