@@ -14,5 +14,6 @@
     htop
     zip
     unzip
+    kubelogin
   ];
 }

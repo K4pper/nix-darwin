@@ -6,10 +6,9 @@
       ls = "eza";
       lg = "lazygit";
       vim = "nvim";
+      k = "kubectl";
     };
-    variables = {
-      KUBECONFIG="./kubeconfig";
-    };
+    envExtra = "export KUBECONFIG=./kubeconfig";
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
     enableCompletion = true;
