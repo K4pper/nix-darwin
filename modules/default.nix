@@ -7,5 +7,6 @@
     ./macos/cli/misc
     ./macos/apps/alacritty
     ./macos/cli/nvim
+    ./macos/cli/az-cli
   ];
 }
