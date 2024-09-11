@@ -7,6 +7,9 @@
       lg = "lazygit";
       vim = "nvim";
     };
+    variables = {
+      KUBECONFIG="./kubeconfig";
+    };
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
     enableCompletion = true;
