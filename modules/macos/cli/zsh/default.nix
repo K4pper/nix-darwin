@@ -5,6 +5,7 @@
     shellAliases = {
       ls = "eza";
       lg = "lazygit";
+      vim = "nvim";
     };
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
