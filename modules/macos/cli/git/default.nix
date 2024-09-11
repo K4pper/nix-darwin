@@ -11,7 +11,7 @@
       rerere.enabled = true;
       delta.line-numbers = true;
       delta.side-by-side = true;
-      user.signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDBmzrRZGq9PPl3KtSTuvmfH+XvJ9IRX8IeksZiVYW61";
+      user.signingkey = "~/.ssh/id_ed25519.pub";
     };
   };
 }
