@@ -9,5 +9,6 @@
     ./macos/cli/nvim
     ./macos/cli/az-cli
     ./macos/cli/tmux
+    ./macos/cli/zoxide
   ];
 }
