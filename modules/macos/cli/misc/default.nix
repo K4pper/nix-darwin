@@ -15,5 +15,6 @@
     zip
     unzip
     kubelogin
+    kubectl
   ];
 }
