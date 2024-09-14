@@ -11,6 +11,7 @@
         "$git_branch"
         "$git_state"
         "$git_status"
+        "$kubernetes"
         "$line_break"
         "$character"
       ];
@@ -37,6 +38,11 @@
       git_state = {
         format = "'\([$state( $progress_current/$progress_total)]($style)\) '";
         style = "bright-black";
+      };
+      kubernetes = {
+        format = "[$symbol(\($namespace\))]($style)";
+        disabled = false;
+        style = "blue";
       };
     };
   };
