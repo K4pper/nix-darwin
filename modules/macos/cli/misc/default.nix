@@ -18,5 +18,6 @@
     kubectl
     kubectx
     kubernetes-helm
+    powershell
   ];
 }
