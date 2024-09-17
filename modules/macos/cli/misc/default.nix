@@ -17,5 +17,6 @@
     kubelogin
     kubectl
     kubectx
+    kubernetes-helm
   ];
 }
