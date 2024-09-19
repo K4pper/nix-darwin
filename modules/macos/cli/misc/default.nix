@@ -19,5 +19,6 @@
     kubectx
     kubernetes-helm
     powershell
+    argocd
   ];
 }
