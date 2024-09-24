@@ -9,6 +9,7 @@
     ./lsp.nix
     ./auto-pair.nix
     ./cmp.nix
+    ./copilot-vim.nix
   ];
 
   programs.nixvim = {
