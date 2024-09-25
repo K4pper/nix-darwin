@@ -9,7 +9,6 @@
     ./lsp.nix
     ./auto-pair.nix
     ./cmp.nix
-    ./copilot-vim.nix
     ./copilot-cmp.nix
     ./conform-nvim.nix
   ];
