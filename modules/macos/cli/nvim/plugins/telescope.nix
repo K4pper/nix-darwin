@@ -6,6 +6,11 @@
         "<leader>ff" = "find_files";
         "<leader>fg" = "live_grep";
       };
+      settings = {
+        find_files = {
+          hidden = true;
+        };
+      };
     };
   };
 }

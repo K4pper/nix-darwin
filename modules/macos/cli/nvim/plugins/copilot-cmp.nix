@@ -1,6 +1,6 @@
 {
   programs.nixvim = {
-    plugins.conform-nvim = {
+    plugins.copilot-cmp = {
       enable = true;
     };
   };
