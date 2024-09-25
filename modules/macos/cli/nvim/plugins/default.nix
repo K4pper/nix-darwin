@@ -10,6 +10,7 @@
     ./auto-pair.nix
     ./cmp.nix
     ./copilot-cmp.nix
+    ./copilot-lua.nix
     ./conform-nvim.nix
   ];
 
