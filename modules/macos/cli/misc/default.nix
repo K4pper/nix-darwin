@@ -22,5 +22,8 @@
     argocd
     act
     gh
+    trivy
+    syft
+    dive
   ];
 }
