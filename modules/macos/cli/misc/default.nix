@@ -20,5 +20,7 @@
     kubernetes-helm
     powershell
     argocd
+    act
+    gh
   ];
 }
