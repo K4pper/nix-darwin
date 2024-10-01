@@ -27,7 +27,6 @@ save_to_clipboard = true
 
 [window]
 title = "Alacritty"
-opacity = 0.8
 decorations = "None"
 option_as_alt = "Both"
 
