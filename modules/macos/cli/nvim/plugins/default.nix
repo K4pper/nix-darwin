@@ -12,6 +12,7 @@
     ./copilot-cmp.nix
     ./copilot-lua.nix
     ./conform-nvim.nix
+    ./mini.nix
   ];
 
   programs.nixvim = {
