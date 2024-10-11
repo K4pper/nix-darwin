@@ -25,5 +25,6 @@
     trivy
     syft
     dive
+    podman
   ];
 }
