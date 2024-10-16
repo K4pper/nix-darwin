@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ ... }:
 {
   homebrew = {
     enable = true;
@@ -8,6 +8,7 @@
     ];
     onActivation = {
       upgrade = true;
+      autoUpdate = true;
     };
   };
 

@@ -26,5 +26,6 @@
     syft
     dive
     podman
+    tree
   ];
 }
