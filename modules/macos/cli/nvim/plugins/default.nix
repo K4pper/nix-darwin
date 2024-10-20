@@ -16,7 +16,7 @@
   ];
 
   programs.nixvim = {
-    colorschemes.rose-pine= {
+    colorschemes.rose-pine = {
       enable = true;
     };
   };
