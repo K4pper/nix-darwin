@@ -16,11 +16,8 @@
   ];
 
   programs.nixvim = {
-    colorschemes.tokyonight = {
+    colorschemes.rose-pine= {
       enable = true;
-      settings = {
-        transparent = true;
-      };
     };
   };
 }
