@@ -3,8 +3,13 @@
   homebrew = {
     enable = true;
     casks = [
-      # 'brew install --cask'
       "nikitabobko/tap/aerospace"
+      "firefox"
+      "wireshark"
+      "shottr"
+      "obsidian"
+      "1password"
+      "discord"
     ];
     onActivation = {
       upgrade = true;
