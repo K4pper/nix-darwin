@@ -6,7 +6,6 @@
       settings.sources = [
         { name = "nvim_lsp"; }
         { name = "path"; }
-        { name = "copilot"; }
         { name = "buffer"; }
         { name = "luasnip"; }
       ];
