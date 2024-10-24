@@ -14,8 +14,6 @@
         __raw = ''
           cmp.mapping.preset.insert({
             ['<CR>'] = cmp.mapping.confirm({ select = false }),
-            ["<Tab>"] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }),
-            ["<S-Tab>"] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }),
           })
         '';
       };
