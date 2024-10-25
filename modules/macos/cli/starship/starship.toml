@@ -4,9 +4,9 @@ $directory \
 $kubernetes \
 $git_branch \
 $git_status \
+$fill \
 $azure \
-$fill \n   \
-[󱞪 ](fg:iris)
+\n [ 󱞪 ](fg:iris)
 """
 palette = "rose-pine"
 
