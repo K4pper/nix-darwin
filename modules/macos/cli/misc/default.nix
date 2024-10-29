@@ -27,5 +27,6 @@
     dive
     podman
     tree
+    sipcalc
   ];
 }

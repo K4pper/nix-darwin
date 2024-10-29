@@ -10,6 +10,7 @@
     ./auto-pair.nix
     ./cmp.nix
     ./conform-nvim.nix
+    ./lsp-lines.nix
   ];
 
   programs.nixvim = {

@@ -10,6 +10,7 @@
       "obsidian"
       "1password"
       "discord"
+      "telegram"
     ];
     onActivation = {
       upgrade = true;
