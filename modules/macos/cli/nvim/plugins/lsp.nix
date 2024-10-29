@@ -8,6 +8,7 @@
           marksman.enable = true;
           clangd.enable = true;
           yamlls.enable = true;
+          nixd.enable = true;
         };
       };
     };

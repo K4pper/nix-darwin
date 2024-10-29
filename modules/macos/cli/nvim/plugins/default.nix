@@ -7,10 +7,11 @@
     ./bufferline.nix
     ./telescope.nix
     ./lsp.nix
+    ./lsp-lines.nix
+    ./lsp-format.nix
     ./auto-pair.nix
     ./cmp.nix
     ./conform-nvim.nix
-    ./lsp-lines.nix
   ];
 
   programs.nixvim = {
