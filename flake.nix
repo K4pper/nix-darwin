@@ -13,10 +13,9 @@
 
   outputs = inputs@{ self, nix-darwin, nixpkgs, home-manager, nixvim, ... }:
     let
-      lib = nixpkgs.lib;
       pkgs = nixpkgs.legacyPackages.${system};
       system = "aarch64-darwin";
-      configuration = { pkgs, ... }: {
+      configuration = { ... }: {
         # List packages installed in system profile. To search by name, run:
         # $ nix-env -qaP | grep wget
 
