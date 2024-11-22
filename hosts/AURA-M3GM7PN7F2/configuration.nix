@@ -11,6 +11,7 @@
       "1password"
       "discord"
       "telegram"
+      "zoom"
     ];
     onActivation = {
       upgrade = true;
