@@ -5,10 +5,15 @@
 
       globalstatus = true;
 
-      sections = {
-        lualine_a = ["mode"];
-        lualine_b = ["branch"];
-        lualine_c = ["filename" "diff"];
+      settings = {
+        sections = {
+          lualine_a = ["mode"];
+          lualine_b = ["branch"];
+          lualine_c = ["filename" "diff"];
+        };
+        options = {
+          globalstatus = true;
+        };
       };
     };
   };

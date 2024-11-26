@@ -12,6 +12,7 @@
     ./auto-pair.nix
     ./cmp.nix
     ./conform-nvim.nix
+    ./mini.nix
   ];
 
   programs.nixvim = {
