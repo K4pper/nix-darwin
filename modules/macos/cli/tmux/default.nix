@@ -54,6 +54,9 @@
 
       # Enable mouse
       set -g mouse on
+
+      # shell
+      set-option -g default-shell $SHELL
       '';
   };
 }
