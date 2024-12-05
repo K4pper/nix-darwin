@@ -11,5 +11,15 @@
         '';
       };
     }
+    {
+      event = [
+        "BufNewFile"
+        "BufRead"
+      ];
+      pattern = [
+        "*.bicep"
+      ];
+      command = "set filetype=bicep";
+    }
   ];
 }

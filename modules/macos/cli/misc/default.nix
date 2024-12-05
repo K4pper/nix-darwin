@@ -28,5 +28,6 @@
     podman
     tree
     sipcalc
+    dotnet-sdk
   ];
 }
