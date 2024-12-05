@@ -12,6 +12,7 @@
       "discord"
       "telegram"
       "zoom"
+      "visual-studio-code"
     ];
     onActivation = {
       upgrade = true;
