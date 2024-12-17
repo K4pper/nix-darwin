@@ -13,6 +13,7 @@
       "telegram"
       "zoom"
       "visual-studio-code"
+      "google-chrome"
     ];
     onActivation = {
       upgrade = true;
