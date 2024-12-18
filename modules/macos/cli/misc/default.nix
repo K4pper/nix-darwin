@@ -29,5 +29,6 @@
     tree
     sipcalc
     dotnet-sdk
+    gum
   ];
 }
