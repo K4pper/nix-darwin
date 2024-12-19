@@ -30,5 +30,6 @@
     sipcalc
     dotnet-sdk
     gum
+    _1password
   ];
 }
