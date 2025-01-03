@@ -31,5 +31,6 @@
     dotnet-sdk
     gum
     _1password
+    httpie
   ];
 }
