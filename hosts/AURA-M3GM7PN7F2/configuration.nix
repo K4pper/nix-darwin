@@ -7,7 +7,6 @@
       "firefox"
       "wireshark"
       "shottr"
-      "obsidian"
       "1password"
       "discord"
       "telegram"
