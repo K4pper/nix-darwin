@@ -13,6 +13,8 @@
       "zoom"
       "visual-studio-code"
       "google-chrome"
+      "postman"
+      "kitty"
     ];
     onActivation = {
       upgrade = true;
