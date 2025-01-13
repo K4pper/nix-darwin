@@ -56,7 +56,8 @@
       set -g mouse on
 
       # shell
-      set-option -g default-shell $SHELL
+      set -gu default-command
+      set -g default-shell "$SHELL"
       '';
   };
 }
