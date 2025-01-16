@@ -2,7 +2,7 @@
 {
   home.packages = with pkgs; [
     jq
-    yq
+    yq-go
     ripgrep
     gcc
     bat
