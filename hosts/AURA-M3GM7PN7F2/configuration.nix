@@ -15,6 +15,7 @@
       "google-chrome"
       "postman"
       "kitty"
+      "alacritty"
     ];
     onActivation = {
       upgrade = true;
