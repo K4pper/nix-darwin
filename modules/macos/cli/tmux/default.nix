@@ -35,10 +35,10 @@
       bind | split-window -h -c "#{pane_current_path}"
       bind - split-window -v -c "#{pane_current_path}"
 
-      bind -n M-y select-pane -L
-      bind -n M-u select-pane -D
-      bind -n M-i select-pane -U
-      bind -n M-o select-pane -R
+      bind -n M-h select-pane -L
+      bind -n M-j select-pane -D
+      bind -n M-k select-pane -U
+      bind -n M-l select-pane -R
 
       unbind '"'
       unbind %
