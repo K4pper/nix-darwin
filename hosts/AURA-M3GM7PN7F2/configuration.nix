@@ -14,8 +14,8 @@
       "visual-studio-code"
       "google-chrome"
       "postman"
-      "kitty"
       "alacritty"
+      "docker"
     ];
     onActivation = {
       upgrade = true;
