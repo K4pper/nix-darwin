@@ -25,7 +25,6 @@
     trivy
     syft
     dive
-    podman
     tree
     sipcalc
     dotnet-sdk
