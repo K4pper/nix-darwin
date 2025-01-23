@@ -28,7 +28,7 @@ save_to_clipboard = true
 
 [window]
 title = "Alacritty"
-decorations = "None"
+decorations = "Full"
 option_as_alt = "Both"
 
 [colors.primary]
