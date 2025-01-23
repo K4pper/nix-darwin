@@ -6,6 +6,7 @@
     ./macos/cli/zsh
     ./macos/cli/misc
     ./macos/apps/alacritty
+    ./macos/apps/aerospace
     ./macos/cli/nvim
     ./macos/cli/az-cli
     ./macos/cli/tmux
