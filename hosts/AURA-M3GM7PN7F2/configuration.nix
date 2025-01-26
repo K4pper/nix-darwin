@@ -16,6 +16,7 @@
       "postman"
       "alacritty"
       "docker"
+      "obsidian"
     ];
     onActivation = {
       upgrade = true;
