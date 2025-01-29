@@ -12,11 +12,10 @@
       "telegram"
       "zoom"
       "visual-studio-code"
-      "google-chrome"
-      "postman"
       "alacritty"
       "docker"
       "obsidian"
+      "slack"
     ];
     onActivation = {
       upgrade = true;
