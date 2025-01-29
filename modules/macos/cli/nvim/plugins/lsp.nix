@@ -13,6 +13,9 @@
           bicep = {
             enable = true;
             package = null;
+            filetypes = [
+              "bicep"
+            ];
             autostart = true;
           };
         };
