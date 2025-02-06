@@ -31,5 +31,6 @@
     gum
     _1password-cli
     httpie
+    msgraph-cli
   ];
 }
