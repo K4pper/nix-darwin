@@ -16,6 +16,7 @@
       "docker"
       "obsidian"
       "slack"
+      "signal"
     ];
     onActivation = {
       upgrade = true;
