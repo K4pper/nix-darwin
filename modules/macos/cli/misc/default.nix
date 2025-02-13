@@ -32,5 +32,6 @@
     _1password-cli
     httpie
     msgraph-cli
+    sslscan
   ];
 }
