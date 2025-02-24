@@ -13,6 +13,7 @@
     ./cmp.nix
     ./conform-nvim.nix
     ./mini.nix
+    ./render-markdown.nix
   ];
 
   programs.nixvim = {
