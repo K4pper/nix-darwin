@@ -17,6 +17,7 @@
       "obsidian"
       "slack"
       "signal"
+      "windows-app"
     ];
     onActivation = {
       upgrade = true;
