@@ -18,6 +18,7 @@
       "slack"
       "signal"
       "windows-app"
+      "visual-studio-code"
     ];
     onActivation = {
       upgrade = true;
