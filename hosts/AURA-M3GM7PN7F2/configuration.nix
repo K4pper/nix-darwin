@@ -19,6 +19,7 @@
       "signal"
       "windows-app"
       "visual-studio-code"
+      "sublime-text"
     ];
     onActivation = {
       upgrade = true;
