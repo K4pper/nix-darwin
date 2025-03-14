@@ -9,7 +9,6 @@
       "shottr"
       "1password"
       "discord"
-      "telegram"
       "zoom"
       "visual-studio-code"
       "alacritty"
@@ -20,6 +19,7 @@
       "windows-app"
       "visual-studio-code"
       "sublime-text"
+      "logi-options+"
     ];
     onActivation = {
       upgrade = true;
