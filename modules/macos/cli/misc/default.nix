@@ -33,5 +33,6 @@
     httpie
     msgraph-cli
     sslscan
+    dotnet-sdk
   ];
 }
