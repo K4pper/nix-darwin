@@ -7,7 +7,7 @@
     gcc
     bat
     lazygit
-    nerd-fonts.jetbrains-mono
+    nerdfonts
     fd
     eza
     fzf
