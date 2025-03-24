@@ -14,10 +14,6 @@
     htop
     zip
     unzip
-    kubelogin
-    kubectl
-    kubectx
-    kubernetes-helm
     powershell
     argocd
     act

@@ -15,5 +15,6 @@
     dotDir = ".config/zsh";
     completionInit = "autoload -Uz compinit && zstyle ':completion:*' menu select && zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}' && zmodload zsh/complist && compinit";
     initExtra = "unsetopt BEEP";
+    profileExtra = "eval $(/opt/homebrew/bin/brew shellenv)";
   };
 }
