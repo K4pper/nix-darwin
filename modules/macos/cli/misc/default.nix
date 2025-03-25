@@ -30,5 +30,6 @@
     msgraph-cli
     sslscan
     dotnet-sdk
+    kubelogin
   ];
 }
