@@ -14,7 +14,11 @@
     enableCompletion = true;
     dotDir = ".config/zsh";
     completionInit = "autoload -Uz compinit && zstyle ':completion:*' menu select && zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}' && zmodload zsh/complist && compinit";
-    initExtra = "unsetopt BEEP";
+    initExtra = ''
+      unsetopt BEEP
+      autoload bashcompinit && bashcompinit
+      source $(brew --prefix)/etc/bash_completion.d/az
+    '';
     profileExtra = "eval $(/opt/homebrew/bin/brew shellenv)";
   };
 }
