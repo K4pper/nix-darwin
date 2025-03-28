@@ -5,6 +5,7 @@
     casks = [
       "nikitabobko/tap/aerospace"
       "firefox"
+      "google-chrome"
       "wireshark"
       "shottr"
       "1password"
