@@ -31,5 +31,7 @@
     sslscan
     dotnet-sdk
     kubelogin
+    kubectx
+    kubernetes-helm
   ];
 }
