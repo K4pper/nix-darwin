@@ -21,6 +21,7 @@
       "visual-studio-code"
       "sublime-text"
       "logi-options+"
+      "jellyfin-media-player"
     ];
     onActivation = {
       upgrade = true;
