@@ -1,0 +1,27 @@
+{ ... }:
+{
+  imports = [
+    ./git
+    ./nvim
+    ./starship
+    ./zsh
+    ./eza
+    ./zoxide
+    ./jq
+    ./fzf
+    ./gum
+    ./htop
+    ./dotnet-sdk
+    ./lazygit
+    ./powershell
+    ./ripgrep
+    ./sipcalc
+    ./sslscan
+    ./syft
+    ./tmux
+    ./tree
+    ./trivy
+    ./yazi
+    ./dive
+  ];
+}
