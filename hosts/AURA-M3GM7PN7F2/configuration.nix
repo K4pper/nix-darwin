@@ -32,9 +32,13 @@
         "firefox"
         "docker-desktop"
         "nikitabobko/tap/aerospace"
+        "shottr"
       ];
       brews = [
         "azure-cli"
+      ];
+      taps = [
+        "nikitabobko/tap"
       ];
     };
 
