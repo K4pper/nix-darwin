@@ -28,15 +28,15 @@
   in
   {
     # Build darwin flake using:
-    # $ darwin-rebuild build --flake .#AURA-M3GM7PN7F2
-    darwinConfigurations."AURA-M3GM7PN7F2" = nix-darwin.lib.darwinSystem {
+    # $ darwin-rebuild build --flake .#macbook-pro
+    darwinConfigurations."macbook-pro" = nix-darwin.lib.darwinSystem {
       modules = [
         { nixpkgs.hostPlatform = system; }
         ./hosts/AURA-M3GM7PN7F2/configuration.nix
       ];
     };
     homeConfigurations = {
-      "kath@AURA-M3GM7PN7F2" = home-manager.lib.homeManagerConfiguration {
+      "kath@macbook-pro" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
         extraSpecialArgs = {
           pkgs-unstable = import nixpkgs-unstable {
