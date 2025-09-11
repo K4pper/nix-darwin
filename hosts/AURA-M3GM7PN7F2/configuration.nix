@@ -31,15 +31,13 @@
         "alacritty"
         "firefox"
         "docker-desktop"
-        "nikitabobko/tap/aerospace"
         "shottr"
+        "rectangle"
       ];
       brews = [
         "azure-cli"
       ];
-      taps = [
-        "nikitabobko/tap"
-      ];
+      taps = [];
     };
 
   };
