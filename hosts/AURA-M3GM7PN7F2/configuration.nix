@@ -34,6 +34,8 @@
         "rectangle"
         "telegram"
         "signal"
+        "discord"
+        "librewolf"
       ];
       brews = [
         "azure-cli"
