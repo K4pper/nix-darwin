@@ -29,10 +29,11 @@
         "logi-options+"
         "1password"
         "alacritty"
-        "firefox"
         "docker-desktop"
         "shottr"
         "rectangle"
+        "telegram"
+        "signal"
       ];
       brews = [
         "azure-cli"
