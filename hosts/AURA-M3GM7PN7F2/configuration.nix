@@ -29,6 +29,7 @@
         "logi-options+"
         "1password"
         "alacritty"
+        "ghostty"
         "docker-desktop"
         "shottr"
         "rectangle"
