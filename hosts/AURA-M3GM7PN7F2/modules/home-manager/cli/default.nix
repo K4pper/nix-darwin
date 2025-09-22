@@ -23,5 +23,6 @@
     ./trivy
     ./yazi
     ./dive
+    ./actionlint
   ];
 }
