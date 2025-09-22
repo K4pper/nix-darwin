@@ -1,13 +1,17 @@
-font-family = JetBrainsMono Nerd Font Mono
-font-style = JetBrainsMono NFM Regular
+font-family = JetBrainsMono Nerd Font
+font-style = Regular
 
-font-family-bold = JetBrainsMono Nerd Font Mono
-font-style-bold = JetBrainsMono NFM Bold
+font-family-bold = JetBrainsMono Nerd Font
+font-style-bold = Bold
 
-font-family-italic = JetBrainsMono Nerd Font Mono
-font-style-italic = JetBrainsMono NFM Italic
+font-family-italic = JetBrainsMono Nerd Font
+font-style-italic = Italic
 
-font-family-bold-italic = JetBrainsMono Nerd Font Mono
-font-style-bold-italic = JetBrainsMono NFM Bold Italic
+font-family-bold-italic = JetBrainsMono Nerd Font
+font-style-bold-italic = Bold Italic
+
+font-size = 19
 
 theme = Rose Pine
+
+macos-option-as-alt = true
