@@ -2,7 +2,7 @@
 let
   bicepLanguageServer = pkgs.stdenv.mkDerivation rec {
     pname = "bicep-langserver";
-    version = "0.38.3";
+    version = "0.38.5";
 
     src = pkgs.fetchurl {
       url = "https://github.com/Azure/bicep/releases/download/v${version}/bicep-langserver.zip";
