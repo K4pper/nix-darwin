@@ -24,5 +24,6 @@
     ./yazi
     ./dive
     ./actionlint
+    ./1password
   ];
 }
