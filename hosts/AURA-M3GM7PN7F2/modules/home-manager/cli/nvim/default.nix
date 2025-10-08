@@ -2,11 +2,11 @@
 let
   bicepLanguageServer = pkgs.stdenv.mkDerivation rec {
     pname = "bicep-langserver";
-    version = "0.38.5";
+    version = "0.38.33";
 
     src = pkgs.fetchurl {
       url = "https://github.com/Azure/bicep/releases/download/v${version}/bicep-langserver.zip";
-      sha256 = "sha256-7+J8WJ9hoktYd5gmlnPb/UrrBMa+H7iwYLQ/2NTiCCY=";
+      sha256 = "sha256-aaOOp+STz49SEZAWJ1J/wfZtZ5ZSGjB0K8gWkoqfwNE=";
     };
 
     buildInputs = [ pkgs.unzip ];
