@@ -49,7 +49,7 @@
       bind -T  copy-mode-vi v send -X begin-selection
       bind -T  copy-mode-vi y send -X copy-pipe-and-cancel
       bind P paste-buffer
-      bind -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel
+      bind -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-selection-no-clear
 
       # Enable mouse
       set -g mouse on
