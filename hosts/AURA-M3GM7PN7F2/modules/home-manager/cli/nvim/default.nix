@@ -33,6 +33,7 @@ in
       nil
       lua-language-server
       docker-compose-language-service
+      libclang
       bicepLanguageServer
     ];
     extraLuaConfig = ''
@@ -92,6 +93,8 @@ in
           p.tree-sitter-markdown-inline
           p.tree-sitter-yaml
           p.tree-sitter-dockerfile
+          p.tree-sitter-cpp
+          p.tree-sitter-c
           (pkgs.tree-sitter.buildGrammar {
             language = "bicep";
             version = "bff5988";
