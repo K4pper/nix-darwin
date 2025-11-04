@@ -36,6 +36,7 @@
         "telegram"
         "signal"
         "discord"
+        "rider"
       ];
       brews = [
         "azure-cli"
